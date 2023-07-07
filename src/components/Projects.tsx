@@ -73,7 +73,7 @@ const Projects: React.FC<colorSchemeProps> = ({ currentColorScheme }) => {
                   <h3 className="mb-2 text-lg font-semibold text-gray-800">
                     {project.name}
                   </h3>
-                  <p className="text-gray-600">{project.description}</p>
+                  <p className="mb-6 text-gray-600">{project.description}</p>
                   <div className="mt-4 flex justify-center space-x-4 sm:mt-0">
                     {project.githubLink && (
                       <a
